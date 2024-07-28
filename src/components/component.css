@@ -1,0 +1,35 @@
+.small{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+   
+}
+.size{
+    width: 287px;
+height:180px;
+}
+.mainSize{
+    width: 287px;
+    /* height: 570px; */
+margin-bottom: 45px;
+/* border-radius: 50%; */
+}
+
+.sideUpper{
+
+}
+/* .round{
+    border:4px solid red;
+    border-radius: 50%;
+    position: relative;
+} */
+/* .fix{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: -25px;
+} */
+
+.sideUpper{
+    height:200px;
+}

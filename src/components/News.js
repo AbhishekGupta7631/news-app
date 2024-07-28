@@ -12,7 +12,7 @@ export const News = (props)=>{
 
 
 const [page, setPage] = useState(1);
-const [loading, setLoading] = useState(true);
+// const [loading, setLoading] = useState(true);
 const [articles,setArticles] = useState([]);
 const [totalResults,setTotalResults] = useState(0);
 
@@ -32,7 +32,7 @@ const updateNews = async() => {
     props.setProgress(70);
     setArticles( data.articles)
     setTotalResults(data.totalResults )
-    setLoading(false)
+   
    
   props.setProgress(100);
 
@@ -63,7 +63,7 @@ const fetchMoreData = async () => {
 
 }
 
-  useEffect (()=>{ updateNews(); },[])
+  useEffect (()=>{ updateNews(); },[updateNews])
 
 
 

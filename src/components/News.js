@@ -63,7 +63,7 @@ const fetchMoreData = async () => {
 
 }
 
-  useEffect (()=>{ updateNews(); },[updateNews])
+  useEffect (()=>{ updateNews(); },[])
 
 
 
